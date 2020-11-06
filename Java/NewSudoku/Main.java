@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class Main {
-
+    
     public int[][] grid;
     public int size;
     public int count = 0;
@@ -72,7 +72,7 @@ public class Main {
         for(int i = 0; i<size; i++){
             System.out.println(Arrays.toString(grid[i]));
         }
-    }
+    }    
     public static void main(String[]args){
         Main m = new Main();
         m.input();
